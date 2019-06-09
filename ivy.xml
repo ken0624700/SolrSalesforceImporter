@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-    <info organisation="caliper.solr" module="solr-salesforce-importer"/>
+    <info organisation="solr" module="solr-salesforce-importer"/>
     <configurations>
         <conf name="compile" transitive="true" visibility="public"/>
     </configurations>
