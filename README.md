@@ -46,7 +46,7 @@ This is a simple data import handler for importing data from Salesforce into Sol
 ```
 
 ## Usage
-Here is a sample data-config.xml showing the use of all components
+An sample data-config.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <dataConfig>
