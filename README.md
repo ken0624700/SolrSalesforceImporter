@@ -27,14 +27,14 @@ This is a simple data import handler for importing data from Salesforce into Sol
 * SoapAPI - SOAP API client
 
 ## Installation
-1. Building solr-salesforce-importer.jar
+1. Download the latest release of solr-salesforce-importer.jar from https://github.com/ken0624700/SolrSalesforceImporter/releases, or build it locally: 
     - Check out latest version of SolrSalesforceImporter
     ```
         git clone git@github.com:/SolrSalesforceImporter.git
     ```
     - Build the jar file by running "ant" command under the SolrSalesforceImporter directory
      
-3. Copy build/jar/solr-salesforce-importer-{version}.jar into your Solr instance's dist folder (e.g., /opt/solr/dist)
+3. Copy the downloaded jar file, or if building locally, build/jar/solr-salesforce-importer-{version}.jar into your Solr instance's dist folder (e.g., /opt/solr/dist)
 4. Copy lib/sforce-wsc-45.0.0-uber.jar into your Solr instance's dist folder
 5. Copy lib/sfdc_partner_wsc.jar into your Solr instance's dist folder (refer to [this page](https://github.com/forcedotcom/wsc) for how to build this partner API jar file)
 6. Add lib directives to your solrconfig.xml
